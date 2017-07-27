@@ -1,0 +1,13 @@
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 40em) {
+  .content-container {
+    display: flex;
+  }
+  .side-navigation {
+    flex: 0 0 12em;
+  }
+}

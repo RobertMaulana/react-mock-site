@@ -1,0 +1,123 @@
+@media screen and (max-width: 45em) {
+  .side-navigation {
+    display: none;
+  }
+  .logo-container Link i {
+    color: black;
+  }
+  .gadget-hide-nav {
+    display: none;
+  }
+  .navigation-list {
+    list-style: none;
+    padding-left: 1em;
+  }
+
+  .navigation-list Link {
+    text-decoration: none;
+    color: hsla(216, 100%, 57%, 1);
+    outline: 0;
+  }
+
+  .navigation-list a:hover {
+    background: hsla(0, 0%, 86%, 1);
+    transition: background 2s ease;
+  }
+
+  .logo-container {
+    display: flex;
+  }
+
+  .burger-menu {
+    position: absolute;
+    left: 1em;
+    color: hsla(216, 100%, 57%, 1);
+  }
+
+  .navigation {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: left;
+  }
+
+  .navigation-container {
+    background: hsla(360, 100%, 100%, 1);
+    box-shadow: .1em .05em .2em .1em hsla(0, 0%, 78%, 1);
+    height: 3em;
+    position: fixed;
+    left: 0;
+    right: 0;
+  }
+
+  .logo-container Link {
+    list-style-type: none;
+    text-decoration: none;
+    color: hsla(216, 100%, 57%, 1);
+    outline: 0;
+  }
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    padding-top: .5em;
+  }
+
+  .logo-container a {
+    color: hsla(216, 100%, 57%, 1);
+    list-style-type: none;
+    text-decoration: none;
+    outline: 0;
+  }
+}
+
+
+@media screen and (min-width: 45em) {
+  .burger-menu {
+    display: none;
+  }
+  .navigation-list {
+    list-style: none;
+  }
+
+  .navigation-list a {
+    text-decoration: none;
+    padding: .5em 3em;
+    color: hsla(216, 100%, 57%, 1);
+    outline: 0;
+  }
+
+  .navigation-list a:hover {
+    background: hsla(0, 0%, 86%, 1);
+    transition: background 2s ease;
+  }
+
+  .logo-container {
+    margin-right: auto;
+  }
+
+  .navigation {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+  }
+
+  .navigation-container {
+    background: hsla(360, 100%, 100%, 1);
+    box-shadow: .1em .05em .2em .1em hsla(0, 0%, 78%, 1);
+    display: flex;
+    position: fixed;
+    left: 0;
+    right: 0;
+  }
+
+  .logo-container a {
+    padding: .5em 2em;
+    color: hsla(216, 100%, 57%, 1);
+    list-style-type: none;
+    text-decoration: none;
+    outline: 0;
+  }
+  .logo-container {
+    margin-top: 1em;
+    margin-left: 1em;
+  }
+}

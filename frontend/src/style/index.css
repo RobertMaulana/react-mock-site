@@ -1,0 +1,21 @@
+body {
+  font-family: 'Cairo', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: hsla(0, 0%, 91%, 1);
+}
+
+@import url('css/style-navigation.css');
+
+/*style blog*/
+@import url('css/style-content.css');
+@import url('css/style-side-navigation.css');
+@import url('css/style-card.css');
+
+/*style home*/
+@import url('css/style-hero.css');
+
+/*style single post*/
+@import url('css/style-single-post.css');
+@import url('css/style-content-singlepost.css');

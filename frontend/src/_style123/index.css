@@ -1,0 +1,14 @@
+body {
+  font-family: 'Cairo', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: hsla(0, 0%, 91%, 1);
+}
+
+@import url('css/StyleNavigation.css');
+/*@import url('css/StyleSideNavigation.css');*/
+/*@import url('css/StylePostCard.css');*/
+@import url('css/StyleFooter.css');
+@import url('css/StyleContent.css');
+@import url('app.css');
