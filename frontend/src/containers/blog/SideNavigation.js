@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import fetchCategory from '../../action/action-category';
+import {fetchCategory} from '../../action/index';
 import Fontawesome from 'react-fontawesome';
 import io from 'socket.io-client';
 

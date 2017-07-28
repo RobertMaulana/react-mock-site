@@ -4,6 +4,10 @@ import SideNavigation from '../SideNavigation';
 import ContentSinglePost from './ContentSinglePost';
 
 class SinglePost extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {}
+  }
   render() {
     return(
       <div>
@@ -12,7 +16,7 @@ class SinglePost extends Component {
         </div>
         <div className='singlepost-content-container'>
             <SideNavigation />
-            <ContentSinglePost />
+            <ContentSinglePost content={this.props}/>
         </div>
       </div>
     )
